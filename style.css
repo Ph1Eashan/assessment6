@@ -82,6 +82,7 @@ h3 {
  top: 550px;
 }
 .forthBox {
+ align-items: center;
  width: 300px;
  background-color: azure;
  border-radius: 0.8rem 0;
@@ -95,9 +96,13 @@ h3 {
  padding-bottom: 50px;
 }
 
+.forthBox input {
+ text-align: center;
+}
 .forthBox button {
  border-radius: 0.8rem;
  height: 40px;
+ box-shadow: 5px 5px 5px green;
 }
 
 .bottomContainer {
