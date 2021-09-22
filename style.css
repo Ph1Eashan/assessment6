@@ -1,0 +1,175 @@
+body {
+ background: rgb(255, 255, 255);
+ background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(37, 222, 26, 1) 100%);
+ box-sizing: border-box;
+ margin: 0;
+}
+.container {
+ text-align: center;
+ padding-bottom: 60px;
+}
+
+h1 {
+ text-shadow: 5px 5px 5px green;
+}
+h3 {
+ text-shadow: 5px 5px 5px green;
+}
+
+.header {
+ background-color: azure;
+ display: block;
+ margin: auto;
+ width: 300px;
+ padding-left: 80px;
+ padding-right: 80px;
+ border-radius: 0.8rem;
+ box-shadow: 5px 5px 10px black;
+}
+
+.middleContainer {
+ display: block;
+ margin: auto;
+ width: 1400px;
+ height: 700px;
+ border-width: 1px 0px 1px;
+ border-color:green;
+ border-style: solid;
+ box-shadow: 10px 5px 10px green;
+
+}
+
+.firstBox {
+ width: 300px;
+ background-color: azure;
+ border-radius: 0.8rem 0;
+ border-width: 8px;
+ border-color: green;
+ border-style: solid;
+ box-shadow: 10px 5px 10px green;
+ float: left;
+}
+.secondBox {
+ width: 300px;
+ background-color: azure;
+ border-radius: 0.8rem 0;
+ border-width: 8px;
+ border-color: green;
+ border-style: solid;
+ box-shadow: 10px 5px 10px green;
+ float: right;
+
+}
+
+.veges {
+ width: 300px;
+}
+
+.vegegif img {
+ width: 500px;
+ margin-top: 150px;
+}
+
+.thirdBox {
+ width: 300px;
+ background-color: azure;
+ border-radius: 0.8rem 0;
+ border-width: 8px;
+ border-color: green;
+ border-style: solid;
+ box-shadow: 10px 5px 10px green;
+ position: absolute;
+ top: 550px;
+}
+.forthBox {
+ width: 300px;
+ background-color: azure;
+ border-radius: 0.8rem 0;
+ border-width: 8px;
+ border-color: green;
+ border-style: solid;
+ box-shadow: 10px 5px 10px green;
+ position: absolute;
+ top: 550px;
+ left: 1140px;
+ padding-bottom: 50px;
+}
+
+.forthBox button {
+ border-radius: 0.8rem;
+ height: 40px;
+}
+
+.bottomContainer {
+ background-color: green;
+ display: block;
+ margin: auto;
+ width: 900px;
+ border-style: solid;
+ border-width: 5px;
+ padding-bottom: 10px;
+}
+
+.storeFirstrow {
+ display: flex;
+ padding: 5px;
+
+}
+
+.fruits {
+ background-color: yellow;
+ 
+ width: 450px;
+}
+
+.fruitsContent {
+ padding-left: 30px;
+ padding-right: 30px;
+ line-height: 1.9;
+}
+
+.vegetables {
+ background-color: yellow;
+ margin-left: 5px;
+ width: 450px;
+}
+
+p {
+ font-size: 15px;
+}
+
+.otherItems {
+ display: block;
+ margin: auto;
+ background-color: yellow;
+ width: 99%;
+ padding-top: 5px;
+ padding-bottom: 10px;
+}
+
+.otherItems p {
+ font-size: 15px;
+ line-height: 1.9;
+}
+
+.sticky {
+ display: block;
+ margin: auto;
+ position: fixed;
+ top: 650px;
+ left: 500px;
+ height: 110px;
+ width: 500px;
+ background-color:#a6ff43;
+ width: 500px;
+ border-radius: 0.8rem;
+ border-width: 10px;
+ border-color: red;
+ border-style: solid;
+ box-shadow: 10px 5px 5px darkred;
+}
+
+.stickyContent {
+ display: flex;
+ 
+}
